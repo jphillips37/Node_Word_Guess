@@ -32,8 +32,8 @@ function wordGame(){
             console.log(" ");
             console.log(gameWord.stringFunction());
             console.log(" ");
-            console.log(remGuesses);
-            console.log(lettersGuessed.join(" "));
+            console.log("Remaining Guesses: " + remGuesses);
+            console.log("Letters Guessed: " + lettersGuessed.join(" "));
             console.log(" ");
             console.log("--------------------");
             wordGame();
